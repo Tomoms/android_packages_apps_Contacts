@@ -22,7 +22,7 @@
         <item name="windowActionModeOverlay">true</item>
     </style>
 
-    <style name="Theme.QuickContact" parent="@style/PeopleTheme">
+    <style name="Theme.QuickContact" parent="@style/PeopleThemeAppCompat">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:windowFrame">@null</item>
@@ -52,7 +52,8 @@
         <item name="android:colorPrimaryDark">@color/primary_color_dark</item>
         <item name="android:colorPrimary">@color/primary_color</item>
         <item name="android:colorAccent">@color/primary_color</item>
-        <item name="android:alertDialogTheme">@style/ContactsAlertDialogTheme</item>
+        <item name="android:alertDialogTheme">@style/ContactsAlertDialogThemeAppCompat</item>
+        <item name="alertDialogTheme">@style/ContactsAlertDialogThemeAppCompat</item>
         <item name="list_item_height">@dimen/contact_browser_list_item_height</item>
         <item name="list_section_header_height">24dip</item>
         <item name="list_item_padding_top">
@@ -127,6 +128,7 @@
         <item name="colorPrimary">@color/primary_color</item>
         <item name="android:colorAccent">@color/primary_color</item>
         <item name="colorAccent">@color/primary_color</item>
+        <item name="android:alertDialogTheme">@style/ContactsAlertDialogThemeAppCompat</item>
         <item name="alertDialogTheme">@style/ContactsAlertDialogThemeAppCompat</item>
         <item name="list_item_height">@dimen/contact_browser_list_item_height</item>
         <item name="list_section_header_height">24dip</item>
