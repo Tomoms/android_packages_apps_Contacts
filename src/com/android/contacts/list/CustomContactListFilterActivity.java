@@ -18,7 +18,7 @@ package com.android.contacts.list;
 
 import android.app.ActionBar;
 import android.app.Activity;
-import android.app.AlertDialog;
+import androidx.appcompat.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.app.LoaderManager.LoaderCallbacks;
